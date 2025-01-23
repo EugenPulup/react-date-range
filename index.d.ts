@@ -14,8 +14,8 @@ import { Optional } from './_utils';
 export type RangeFocus = [number, 0 | 1];
 
 export interface Range {
-  startDate?: Date | undefined | null;
-  endDate?: Date | undefined | null;
+  startDate?: Date | undefined;
+  endDate?: Date | undefined;
   color?: string | undefined;
   key?: string | undefined;
   autoFocus?: boolean | undefined;
